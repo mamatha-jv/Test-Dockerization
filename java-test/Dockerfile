@@ -22,4 +22,4 @@ WORKDIR /
 RUN pwd
 RUN git clone https://github.com/mamatha-jv/sample-testcase.git
 
-ENTRYPOINT ["/bin/bash", "/example-test.sh"]
+ENTRYPOINT ["/bin/bash", "/java-test.sh"]
