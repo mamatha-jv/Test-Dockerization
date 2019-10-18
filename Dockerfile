@@ -14,8 +14,6 @@ RUN apt-get update \
 	dirmngr \
 	git 
 
-ENV  JAVA_TOOL_OPTIONS="-Dfile.encoding=UTF8"
-
 # This is the main script to run example tests. Replace this with the script for your own test 
 COPY ./example-test.sh /example-test.sh
 
