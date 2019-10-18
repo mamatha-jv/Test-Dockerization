@@ -15,7 +15,7 @@ RUN apt-get update \
 	git 
 
 # This is the main script to run example tests. Replace this with the script for your own test 
-COPY ./example-test.sh /example-test.sh
+COPY ./perl-test.sh /perl-test.sh
 
 # Clone the repo where the tests reside.
 WORKDIR /
