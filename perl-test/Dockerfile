@@ -20,6 +20,5 @@ COPY ./perl-test.sh /perl-test.sh
 # Clone the repo where the tests reside.
 WORKDIR /
 RUN pwd
-RUN git clone https://github.com/mamatha-jv/sample-testcase.git
 
 ENTRYPOINT ["/bin/bash", "/perl-test.sh"]
